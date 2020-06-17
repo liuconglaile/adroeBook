@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
