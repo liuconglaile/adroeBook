@@ -57,7 +57,7 @@ color_scheme: nil
 # ga_tracking: UA-2709176-10
 
 # 包设置
-theme: just-the-docs
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
