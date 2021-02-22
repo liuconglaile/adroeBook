@@ -1,4 +1,83 @@
+# 欢迎来到Jekyll!
+#
+# 此配置文件用于影响整个博客的设置,
+# 这些值应该设置一次,之后很少进行编辑.
+# 如果您发现自己经常编辑该文件,请考虑使用Jekyll的数据文件功能处理需要经常更新的数据.
+#
+# 由于技术原因,当您使用该文件时,该文件不会自动重新加载.
+# 'bundle exec jekyll serve'. 如果更改此文件,请重新启动服务器进程.
+#
+# 如果您需要有关YAML语法的帮助,以下是一些快速参考: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# 网站设置
+# 这些用于个性化您的新站点.
+# 如果查看HTML文件,您将看到它们通过{{site.title}},{{site.email}}等进行访问.
+# 您可以创建所需的任何自定义变量,并且可以通过{{site.myvariable}}在模板中对其进行访问.
+
+title: adroeBook
+email: 281090013@qq.com
+description: >- # this means to ignore newlines until "baseurl:"
+  记录常用的代码块 & 教程等文章
+baseurl: "" # 您网站的子路径,例如 /blog
+url: "" # 您网站的基本主机名和协议,例如. http://example.com
+twitter_username: liuconglaile
+github_username:  liuconglaile
+
+
+#permalink: pretty
+#exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+
+# 网站logo路径配置
+#logo: "/assets/images/just-the-docs.png"
+
+# 启用或禁用站点搜索
+search_enabled: true
+
+# 设置用于连词搜索的搜索令牌分隔符:
+search_tokenizer_separator: /[\s/]+/
+
+# 启用或禁用标题锚
+heading_anchors: true
+
+# 右上方的导航配置
+aux_links:
+  "百度一下":
+    - "https://www.baidu.com"
+
+# 页脚内容显示在每个页面主要内容的底部
+# footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+
+# 颜色方案 当前仅支持 "dark" 或者 nil (默认)
+color_scheme: nil
+
+# Google Analytics（分析）跟踪（可选）
+# 例如 UA-1234567-89
+# ga_tracking: UA-2709176-10
+
+# 包设置
 theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
